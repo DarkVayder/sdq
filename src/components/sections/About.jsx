@@ -43,7 +43,7 @@ export const About = () => {
             {/* Job 1 */}
             <div className="bg-white/5 p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
               <h4 className="text-xl font-semibold text-blue-400">Software Engineer at Pinely</h4>
-              <p className="text-gray-400 text-sm">2020 - Present</p>
+              <p className="text-gray-400 text-sm">2022 - Present</p>
               <ul className="list-disc text-gray-300 pl-5 mt-2 space-y-1">
                 <li>Developed and maintained cloud-based applications.</li>
                 <li>Responsible for updates, optimizations, and performance tuning.</li>
@@ -52,11 +52,21 @@ export const About = () => {
 
             {/* Job 2 */}
             <div className="bg-white/5 p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
-              <h4 className="text-xl font-semibold text-blue-400">Software Engineer at Abuja Tech</h4>
-              <p className="text-gray-400 text-sm">2018 - 2020</p>
+              <h4 className="text-xl font-semibold text-blue-400">Software Engineer at Swancar Tech</h4>
+              <p className="text-gray-400 text-sm">2020 - 2022</p>
               <ul className="list-disc text-gray-300 pl-5 mt-2 space-y-1">
                 <li>Collaborated with backend developers and UI/UX teams in frontend development.</li>
                 <li>Assisted in web application optimization and performance improvements.</li>
+              </ul>
+            </div>
+            
+            {/* Job 3 */}
+            <div className="bg-white/5 p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+              <h4 className="text-xl font-semibold text-blue-400">Frontend Developer at Akara</h4>
+              <p className="text-gray-400 text-sm">2019 - 2020</p>
+              <ul className="list-disc text-gray-300 pl-5 mt-2 space-y-1">
+                <li>Assisted in the development of web applications.</li>
+                <li>Assisted in web updates, optimizations, and performance tuning.</li>
               </ul>
             </div>
 

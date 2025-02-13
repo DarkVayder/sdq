@@ -19,7 +19,7 @@ export const About = () => {
 
         {/* Additional Info */}
         <p className="text-gray-400 mt-6">
-          My expertise spans across **React, Next.js, Node.js, Express, and Tailwind CSS**. 
+          My expertise spans across React, Next.js, Node.js, Express, and Tailwind CSS. 
           I enjoy solving complex problems, optimizing web performance, and staying up to date with modern technologies.
         </p>
 

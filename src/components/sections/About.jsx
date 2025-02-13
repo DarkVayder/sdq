@@ -19,7 +19,7 @@ export const About = () => {
 
         {/* Additional Info */}
         <p className="text-gray-400 mt-6">
-          My expertise spans across React, Next.js, Node.js, Express, and Tailwind CSS. 
+          My expertise spans across <strong>React, Next.js, Node.js, Express, and Tailwind CSS</strong>. 
           I enjoy solving complex problems, optimizing web performance, and staying up to date with modern technologies.
         </p>
 
@@ -35,8 +35,36 @@ export const About = () => {
           </div>
         </div>
 
+        {/* Work Experience */}
+        <div className="mt-12 text-left">
+          <h3 className="text-3xl font-semibold text-center mb-6">Work Experience</h3>
+          <div className="space-y-6">
+            
+            {/* Job 1 */}
+            <div className="bg-white/5 p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+              <h4 className="text-xl font-semibold text-blue-400">Software Engineer at Pinely</h4>
+              <p className="text-gray-400 text-sm">2020 - Present</p>
+              <ul className="list-disc text-gray-300 pl-5 mt-2 space-y-1">
+                <li>Developed and maintained cloud-based applications.</li>
+                <li>Responsible for updates, optimizations, and performance tuning.</li>
+              </ul>
+            </div>
+
+            {/* Job 2 */}
+            <div className="bg-white/5 p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+              <h4 className="text-xl font-semibold text-blue-400">Software Engineer at Abuja Tech</h4>
+              <p className="text-gray-400 text-sm">2018 - 2020</p>
+              <ul className="list-disc text-gray-300 pl-5 mt-2 space-y-1">
+                <li>Collaborated with backend developers and UI/UX teams in frontend development.</li>
+                <li>Assisted in web application optimization and performance improvements.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
         {/* Call to Action */}
-        <div className="mt-8">
+        <div className="mt-12 text-center">
           <a href="#projects" className="bg-gradient-to-r from-blue-500 to-cyan-400 text-white py-3 px-6 rounded-lg font-medium transition transform hover:-translate-y-1 hover:shadow-lg">
             View My Work
           </a>

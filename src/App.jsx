@@ -3,6 +3,7 @@ import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./components/sections/Home";
+import { About } from "./components/sections/About";
 function App() { 
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,8 +24,8 @@ function App() {
       ) : (
         <div className={`app-container ${menuOpen ? "menu-open" : ""}`}>
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-          
-          < Home />
+          <Home />
+          <About />
         </div>
       )}
     </>

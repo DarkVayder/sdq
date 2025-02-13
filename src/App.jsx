@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
-
+import { Home } from "./components/sections/Home";
 function App() { 
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,10 +24,7 @@ function App() {
         <div className={`app-container ${menuOpen ? "menu-open" : ""}`}>
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           
-          <main className="p-4">
-            <h1 className="text-4xl font-bold text-white">Welcome to My App</h1>
-            <p className="mt-2 text-gray-300">This is a sample page.</p>
-          </main>
+          < Home />
         </div>
       )}
     </>

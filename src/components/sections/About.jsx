@@ -1,6 +1,8 @@
+import {RevealOnScroll} from "../RevealOnScroll"
 export const About = () => {
   return (
     <section id="about" className="min-h-screen flex items-center justify-center bg-[#0a0a0a] text-white py-20 px-6">
+      <RevealOnScroll>
       <div className="max-w-3xl mx-auto text-center">
 
         {/* Title */}
@@ -81,6 +83,7 @@ export const About = () => {
         </div>
 
       </div>
+      </RevealOnScroll>
     </section>
   );
 };

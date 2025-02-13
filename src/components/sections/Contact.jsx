@@ -1,11 +1,6 @@
-import React from 'react'
-
-const Contact = () => {
+export const Contact = () => {
   return (
-    <div>
-      
-    </div>
+    <section id="contact" className="min-h-screen flex items-center justify-center py-20 text-white">Contact Me</section>
+    
   )
-}
-
-export default Contact
+};

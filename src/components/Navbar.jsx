@@ -35,10 +35,10 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-baseline space-x-8">
-                        <a href="#home" className="text-gray-300 hover:text-white transition-colors">Home</a>
-                        <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
-                        <a href="#projects" className="text-gray-300 hover:text-white transition-colors">Projects</a>
-                        <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
+                        <a href="#home" className="text-gray-300 hover:text-cyan-400 transition-colors">Home</a>
+                        <a href="#about" className="text-gray-300 hover:text-cyan-400 transition-colors">About</a>
+                        <a href="#projects" className="text-gray-300 hover:text-cyan-400 transition-colors">Projects</a>
+                        <a href="#contact" className="text-gray-300 hover:text-cyan-400 transition-colors">Contact</a>
                     </div>
                 </div>
             </div>
